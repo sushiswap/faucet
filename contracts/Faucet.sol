@@ -70,7 +70,7 @@ contract Faucet
         if (id == 4 || id == 5) {
             for (uint k = 0; k < compound.length; k++) {
                 address c = compound[k];
-                Allocatable(c).allocateTo(msg.sender, 1000 * (10 ** uint(IERC20(c).safeDecimals())));
+                Allocatable(c).allocateTo(msg.sender, 1000 * (10 ** uint256(IERC20(c).safeDecimals())));
             }
         }
     }
