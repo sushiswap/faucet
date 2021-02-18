@@ -19,6 +19,12 @@
   ],
   "license": "MIT",
   "author": "Matthew Lilley <hello@matthewlilley.com>",
+  "contributors": [
+    {
+      "name": "Bart Jellema",
+      "email": "b@rtje.net"
+    }
+  ],
   "scripts": {
     "build": "hardhat compile",
     "console": "hardhat console",
