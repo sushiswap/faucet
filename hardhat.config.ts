@@ -48,16 +48,7 @@ const config: HardhatUserConfig = {
   namedAccounts: {
     deployer: {
       default: 0,
-    },
-    alice: {
-      default: 1,
-    },
-    bob: {
-      default: 2,
-    },
-    carol: {
-      default: 3,
-    },
+    }
   },
   networks: {
     mainnet: {

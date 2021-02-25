@@ -60,10 +60,10 @@ const compound = {
 }
 
 const sushi = {
-  "3": "0x63058b298f1d083beDcC2Dd77Aa4667909aC357B",
-  "4": "0x63058b298f1d083beDcC2Dd77Aa4667909aC357B",
-  "5": "0x63058b298f1d083beDcC2Dd77Aa4667909aC357B",
-  "42": "0x63058b298f1d083beDcC2Dd77Aa4667909aC357B"
+  "3": "0x5457Cc9B34eA486eB8d3286329F3536f71fa8A8B",
+  "4": "0x5457Cc9B34eA486eB8d3286329F3536f71fa8A8B",
+  "5": "0x5457Cc9B34eA486eB8d3286329F3536f71fa8A8B",
+  "42": "0x5457Cc9B34eA486eB8d3286329F3536f71fa8A8B"
 }
 
 export default async ({ getNamedAccounts, getChainId, deployments }) => {
